@@ -1,2 +1,2 @@
 # ray-gen
-Generate privacy-safe synthetic chest X-rays with Stable Diffusion, pre-train a CNN on them, then measure how well that knowledge transfers to real hospital scans.
+RayGen provides reproducible scripts to synthesize labelled radiographs, filter obvious artefacts, train a lightweight ResNet, fine-tune on a small real subset, and benchmark AUROC against a real-only baseline. Use it to explore synthetic data augmentation, rapid prototyping under strict privacy constraints, and the practical limits of diffusion-based domain transfer.
